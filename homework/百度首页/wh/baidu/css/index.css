@@ -1,0 +1,178 @@
+a{
+    text-decoration: none;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+
+#wrapper{
+    position: relative;
+    border-bottom: 1px solid #ebebeb;
+    height: 32px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+#weather{
+    float: left;
+    color: #555;
+}
+.weather-icon{
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    background-image: url(../img/a2.png);
+    vertical-align:middle;
+}
+.weather-level{
+    color: #38f;
+    font-weight: 700;
+}
+
+.weather span{
+    margin-right: 5px;
+}
+
+#s-icon{
+    float: left;
+}
+#s-icon a{
+    color: #555;
+}
+
+.head-left{
+    float: left;
+    padding-top: 4px;
+}
+.head-right{
+    float: right;
+}
+
+.head-right-ul li{
+    float: left;
+    margin-left: 15px;
+    position: relative;
+}
+
+.head-right-ul a{
+    color: #555;
+    display: inline-block;
+    font-size: 0.6em;
+    height: 30px;
+    padding-top: 10px;
+}
+.a-underline{
+    text-decoration: underline;
+}
+
+.a-fontweight{
+    font-weight: 700;
+}
+
+.red-point{
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background-color: #F23F40;
+    border-radius: 50%;
+    top: 3px;
+    right: -6px;
+}
+
+.more-product{
+    color: white !important;
+    width: 65px;
+    text-align: center;
+    background-color: #398bfb;
+}
+
+.page-middle{
+    position: relative;
+    height: 250px;
+}
+
+.bd-log{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.bd-search-text{
+    position:absolute;
+    top: 100%;
+    left: 52%;
+    width: 28%;
+    height: 70px;
+}
+
+.page-buttom{
+    position: relative;
+    height: 400px;
+}
+.page-buttom-menu{
+    position:absolute;
+    top: 25%;
+    width: 40%;
+    left: 30%;
+    height: 35px;
+    border: 1px solid #e9e9e9;
+}
+
+.page-buttom-menu{
+    height: 100%;
+}
+.page-buttom-menu-top li{
+    float: left;
+    margin-right:10px;
+    padding-top:14px;
+    color: #333;
+    font-size: 1em;
+    height: 37px;
+    text-align: center;
+}
+
+.menu:hover{
+    background-color: #9a9da2!important;
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.setting:hover {
+    cursor: pointer;
+}
+
+.page-buttom-content-left {
+    width: 60%;
+    float: left;
+}
+.page-buttom-content-left li{
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+.page-buttom-content-right{
+    width: 35%;
+    float: left;
+    margin-left: 4%;
+    margin-top: 10px;
+}
+
+.page-buttom-content-right li{
+    float: left;
+    width: 100px;
+    height: 30;
+    margin-top: 10px;
+}
+
+.page-buttom-content-right a:hover{
+    text-decoration: underline;
+}
