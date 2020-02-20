@@ -2,7 +2,7 @@
  * @Author: miao yu
  * @Date: 2020-02-17 19:07:56
  * @LastEditors: miao yu
- * @LastEditTime: 2020-02-17 20:03:00
+ * @LastEditTime: 2020-02-20 08:36:24
  * @Description: 
  -->
 # Front End Training
@@ -10,6 +10,7 @@
 ### 每日一题
 
 - [什么是 HTML？什么是 CSS？](https://github.com/goldEli/Front-End-Training/issues/2)
+- [CSS flex 属性](https://github.com/goldEli/Front-End-Training/issues/5)
 
 ### Homework
 
