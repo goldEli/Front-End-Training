@@ -2,7 +2,7 @@
  * @Author: miao yu
  * @Date: 2020-02-17 19:07:56
  * @LastEditors: miao yu
- * @LastEditTime: 2020-02-25 08:38:03
+ * @LastEditTime: 2020-02-26 08:35:37
  * @Description: 
  -->
 # Front End Training
@@ -15,6 +15,7 @@
 - [什么是盒模型？](https://github.com/goldEli/Front-End-Training/issues/10)
 - [float 和 position](https://github.com/goldEli/Front-End-Training/issues/12)
 - [如何实现居中对齐？](https://github.com/goldEli/Front-End-Training/issues/16)
+- [如何为 DOM 元素添加点击事件？](https://github.com/goldEli/Front-End-Training/issues/22)
 
 ### Homework
 
