@@ -2,7 +2,7 @@
  * @Author: miao yu
  * @Date: 2020-02-17 19:07:56
  * @LastEditors: miao yu
- * @LastEditTime: 2020-02-28 08:39:26
+ * @LastEditTime: 2020-02-29 22:44:47
  * @Description: 
  -->
 # Front End Training
@@ -18,9 +18,12 @@
 - [如何为 DOM 元素添加点击事件？](https://github.com/goldEli/Front-End-Training/issues/22)
 - [定时器](https://github.com/goldEli/Front-End-Training/issues/23)
 - [实现物体移动](https://github.com/goldEli/Front-End-Training/issues/24)
+- [Canvas （1）](https://github.com/goldEli/Front-End-Training/issues/26)
+- [Canvas (2)](https://github.com/goldEli/Front-End-Training/issues/27)
 
 ### Homework
 
 - [百度首页（静态）](https://github.com/goldEli/Front-End-Training/issues/1)
 - [dribbble 首页](https://github.com/goldEli/Front-End-Training/issues/8)
 - [thinkglobalhealth 首页](https://github.com/goldEli/Front-End-Training/issues/17)
+- [ZIIIRO 登录注册](https://github.com/goldEli/Front-End-Training/issues/28)
