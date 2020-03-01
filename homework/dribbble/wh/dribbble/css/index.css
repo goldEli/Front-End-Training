@@ -190,6 +190,8 @@ li{
     position: relative;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 30px;
     width: 110px;
 }
@@ -251,6 +253,7 @@ li{
 .buttom-menu-content-div2-menu li:hover{
     background-color: rgba(58,139,187,0.15);
     color: #3a8bbb;
+    cursor: pointer;
 }
 
 .buttom-menu-content-div3{
@@ -291,9 +294,9 @@ li{
 .buttom-content{
     min-width: 1260px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     background-color: #f4f4f4;
-    height: 800px;
 }
 
 .buttom-content-div{
@@ -397,7 +400,7 @@ li{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    clear: both;
+    background-color: white;
 }
 
 .sign-in-up{
