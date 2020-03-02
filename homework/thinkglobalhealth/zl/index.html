@@ -195,22 +195,48 @@
         // 2.触发右移点击事件
         var btn_right = document.getElementById("right");
         btn_right.onclick = function () {
-            var last_data = data.pop();
-            data.unshift(last_data);
-            // 清空页面的html内容
-            document.getElementById('root').innerHTML = '';
-            createData();
+            move(root, 290, 10, () => {
+                var last_data = data.pop();
+                data.unshift(last_data);
+                // 清空页面的html内容
+                document.getElementById('root').innerHTML = '';
+                createData();
+            });
         }
         // 3.触发左移点击事件
         var btn_left = document.getElementById("left");
-        btn_left.onclick = function () {
-            var first_data = data.shift();
-            data.push(first_data);
-            // 清空页面的html内容
-            document.getElementById('root').innerHTML = '';
-            createData();
+        btn_left.onclick = function () { 
+            move(root, 290, -10,()=>{
+                var first_data = data.shift();
+                //alert("welcome!");
+                data.push(first_data);
+                // 清空页面的html内容
+                document.getElementById('root').innerHTML = '';
+                createData();
+            }); 
+        }
+        
+        // 移动函数
+        function move(target, distance, speed, callback) {
+            // 记录运动距离
+            var already = 0;
+            var time = window.setInterval(() => {
+                var left = target.offsetLeft + speed;
+                target.style.left = left + "px";
+                already += speed;
+                if (Math.abs(already) === distance) {
+                    target.style.left = "-290px";
+                    window.clearInterval(time);
+                    // 回调函数
+                    callback();
+                }
+            }, 1000/30);  
         }
 
+        // 回调函数
+        
+
+        // 建表函数
         function createData() {
             for (var i = 0; i < data.length; i++) {
                 var div = document.createElement("div");
