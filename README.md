@@ -2,7 +2,7 @@
  * @Author: miao yu
  * @Date: 2020-02-17 19:07:56
  * @LastEditors: miao yu
- * @LastEditTime: 2020-03-02 09:06:33
+ * @LastEditTime: 2020-03-03 09:36:49
  * @Description: 
  -->
 # Front End Training
@@ -21,6 +21,7 @@
 - [2020.02.29 Canvas （1）](https://github.com/goldEli/Front-End-Training/issues/26)
 - [2020.03.01 Canvas (2)](https://github.com/goldEli/Front-End-Training/issues/27)
 - [2020.03.02 JavaScript 变量类型](https://github.com/goldEli/Front-End-Training/issues/30)
+- [2020.03.03 画三角形](https://github.com/goldEli/Front-End-Training/issues/33)
 
 ### Homework
 
