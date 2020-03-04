@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>thinkglobalhealth</title>
+  <link rel="stylesheet" href="../css/index.css"/>
+</head>
+<body>
+    <div style="display: flex;justify-content: center;align-items: center;">
+      <div class="header">
+        <div class="header-left">
+          <div class="header-left-search" onclick="show_left_menu()">
+            <img src="../img/search.png" width="20px"/>
+          </div>
+          <div class="header-left-text">
+            <p>Better health</p>
+            <p>begins with ideos</p>
+          </div>
+        </div>
+        <div class="header-middle"><h1 style="font-size: 3em;">Think Global Health</h1></div>
+        <div class="header-right">
+          <p style="color: #767676;font-size: 12px;">on initiative from</p>
+          <p style="font-weight: 600;font-size: 0.8em;line-height: 15px;">COUNCILon FOREIGN RELATIONS</p>
+        </div>
+      </div> 
+    </div>
+
+    <div id="left-menu" class="left-menu">
+      <div class="close"><img src="../img/close.png" width="20px" onclick="close_lest_menu()"></div>
+      <ul class="left-menu-content">
+        <li>Environment</li>
+        <li>Poverty</li>
+        <li>Trade</li>
+        <li>Governance</li>
+        <li>Food</li>
+        <li>Urbanization</li>
+        <li>Aging</li>
+        <li>Gender</li>
+        <li>Migration</li>
+      </ul>
+      
+      <div>
+        <input id="left-menu-input" class="left-menu-input" value="Search" onclick="left_search_click()">
+      </div>
+    </div>
+
+    <div class="menu">
+      <ul class="menu-content">
+        <li>Environment</li>
+        <li>Poverty</li>
+        <li>Trade</li>
+        <li>Governance</li>
+        <li>Food</li>
+        <li>Urbanization</li>
+        <li>Aging</li>
+        <li>Gender</li>
+        <li>Migration</li>
+      </ul>
+    </div>
+
+    <div class="carousel">
+      <div class="switch">
+        <div class="switch-action">
+          <h1>Data in Global Health</h1>
+          <img src="../img/left.png" width="30px" height="30px" style="margin-left: 30px;" onclick="carousel_left_move()">
+          <img src="../img/right.png" width="30px" height="30px" style="margin-left: 20px;" onclick="carousel_right_move()">
+        </div>
+        <p>Featured Data Points</p>
+      </div>
+      <div class="carousel-warp">
+        <ul id="carousel-ul" class="carousel-ul">
+          <li>
+            <div class="carousel-ul-top">51000</div>
+            <div class="carousel-ul-middle">Chinese factories supply 70 percent of active ingredients for India’s generic drug manufacturers, which supply the world</div>
+            <div class="carousel-ul-bottom">
+              <img src="../img/1.jpg" height="70px">
+              <p class="carousel-ul-middle-description">we are the world</p>
+            </div>
+          </li>
+          <li>
+            <div class="carousel-ul-top">10 Percent</div>
+            <div class="carousel-ul-middle">Chinese factories supply 70 percent of active ingredients for India’s generic drug manufacturers, which supply the world</div>
+            <div class="carousel-ul-bottom">
+              <img src="../img/2.jpg" height="70px">
+              <p class="carousel-ul-middle-description">we are the world</p>
+            </div>
+          </li>
+          <li>
+            <div class="carousel-ul-top">$29 per $1</div>
+            <div class="carousel-ul-middle">Chinese factories supply 70 percent of active ingredients for India’s generic drug manufacturers, which supply the world</div>
+            <div class="carousel-ul-bottom">
+              <img src="../img/3.jpg" height="70px">
+              <p class="carousel-ul-middle-description">we are the world</p>
+            </div>
+          </li>
+          <li>
+            <div class="carousel-ul-top">3 percent</div>
+            <div class="carousel-ul-middle">Chinese factories supply 70 percent of active ingredients for India’s generic drug manufacturers, which supply the world</div>
+            <div class="carousel-ul-bottom">
+              <img src="../img/1.jpg" height="70px">
+              <p class="carousel-ul-middle-description">we are the world</p>
+            </div>
+          </li>
+          <li>
+            <div class="carousel-ul-top">$49 per $1</div>
+            <div class="carousel-ul-middle">Chinese factories supply 70 percent of active ingredients for India’s generic drug manufacturers, which supply the world</div>
+            <div class="carousel-ul-bottom">
+              <img src="../img/3.jpg" height="70px">
+              <p class="carousel-ul-middle-description">we are the world</p>
+            </div>
+          </li>
+          <li>
+            <div class="carousel-ul-top">$59 per $1</div>
+            <div class="carousel-ul-middle">Chinese factories supply 70 percent of active ingredients for India’s generic drug manufacturers, which supply the world</div>
+            <div class="carousel-ul-bottom">
+              <img src="../img/3.jpg" height="70px">
+              <p class="carousel-ul-middle-description">we are the world</p>
+            </div>
+          </li>
+          <li>
+            <div class="carousel-ul-top">$69 per $1</div>
+            <div class="carousel-ul-middle">Chinese factories supply 70 percent of active ingredients for India’s generic drug manufacturers, which supply the world</div>
+            <div class="carousel-ul-bottom">
+              <img src="../img/3.jpg" height="70px">
+              <p class="carousel-ul-middle-description">we are the world</p>
+            </div>
+          </li>            
+        </ul>
+      </div>
+    </div>
+</body>
+<script type="text/javascript" src="../js/index.js"></script>
+</html>
