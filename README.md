@@ -24,6 +24,7 @@
 - [2020.03.03 画三角形](https://github.com/goldEli/Front-End-Training/issues/33)
 - [2020.03.04 Animations](https://github.com/goldEli/Front-End-Training/issues/34)
 - [2020.03.05 冒泡排序](https://github.com/goldEli/Front-End-Training/issues/35)
+- [2020.03.06 什么是原型？什么是原型链？](https://github.com/goldEli/Front-End-Training/issues/37)
 
 ### Homework
 
