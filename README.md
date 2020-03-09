@@ -27,6 +27,7 @@
 - [2020.03.06 什么是原型？什么是原型链？](https://github.com/goldEli/Front-End-Training/issues/37)
 - [2020.03.07 JS实现二分查找算法](https://github.com/goldEli/Front-End-Training/issues/41)
 - [2020.03.08 JS预编译](https://github.com/goldEli/Front-End-Training/issues/42)
+- [2020.03.09 Ajax](https://github.com/goldEli/Front-End-Training/issues/43)
 
 ### Homework
 
