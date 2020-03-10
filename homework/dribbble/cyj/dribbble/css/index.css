@@ -209,28 +209,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction: row;
 }
 .filter-views{
-    flex: 0 0 150px;
-    
+    margin-left:100px;
+    /* border-radius: 5px;
+    border: 1px rgb(20, 19, 19); */
 }
-.filter-botton{
-    z-index: 4;
-    position: relative;
-    display: inline-block;
-    vertical-align: baseline;
-}
-.botton-setting{
-    
-    border-radius: 8px;
-    font-weight: normal;
-    text-decoration: none;
-    box-shadow: 0px 0px 0px 1px #D8DDE2 inset;
-    color: #444;
-    letter-spacing: normal;
-    box-sizing: border-box;
-    padding-right: 35px;
+select{
+    border: none;
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
 }
 .filter-cate{
     text-align: center;
@@ -323,7 +312,7 @@
     overflow: hidden;
 }
 .dribbble-shot{
-    transition: padding 0.2s ease;
+    transition: padding 1s ease;
     padding: 10px;
     
 }
