@@ -8,7 +8,8 @@ Demo使用技术栈
     数据库：Mysql
 如何启动项目
 ---
-    拉下来项目，下载好依赖，直接启动即可
+    项目工程在login文件夹下，静态页面文件夹内存放ZIIIRO静态页面。
+    IDEA打开login文件夹内工程，下载好依赖，直接启动即可
     默认访问路径:localhost：8080/login
     完成注册后页面不跳转,登录成功后页面跳转到：localhost:8080/login/inter
 Tips
