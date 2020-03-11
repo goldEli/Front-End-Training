@@ -1,14 +1,17 @@
-body,ul{
+body, ul {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     min-width: 1350px;
 }
-li{
+
+li {
     list-style: none;
 }
-.head{
+
+.head {
     display: flex;
     justify-content: space-between;
     color: #757575;
@@ -16,69 +19,70 @@ li{
     height: 50px;
     align-items: center;
 }
-.head-menu{
+
+.head-menu {
     display: flex;
 }
 
-.head-menu > li{
+.head-menu > li {
     margin-left: 16px;
     position: relative;
 }
 
-.head-menu > li:hover{
+.head-menu > li:hover {
     color: #ddd;
     cursor: pointer;
 }
 
-.head-menu-sub{
+.head-menu-sub {
     display: flex;
 }
 
-.head-menu-sub{
+.head-menu-sub {
     display: none;
     padding-top: 18px;
     background-color: #333;
 }
 
-.hms1{
+.hms1 {
     height: 280px;
     color: white;
 }
 
-.hms1 li{
+.hms1 li {
     display: flex;
     flex-direction: column;
     margin-left: 28px;
     padding-top: 18px;
 }
 
-.hms1-ul-6{
+.hms1-ul-6 {
     color: white;
     margin-left: 20px;
 
 }
 
-.hms1-ul-6 li{
+.hms1-ul-6 li {
     display: flex;
     justify-content: center;
     width: 114px;
 }
 
-.head-menu > li:hover > .head-menu-sub{
+.head-menu > li:hover > .head-menu-sub {
     display: flex;
     position: absolute;
 }
 
-.head-menu-sub:hover{
+.head-menu-sub:hover {
     display: flex;
 }
 
-.search{
+.search {
     display: flex;
     margin-right: 10px;
 }
 
-.search li{
+.search li {
     margin-right: 16px;
     display: flex;
     justify-content: center;
@@ -86,11 +90,11 @@ li{
     cursor: pointer;
 }
 
-.search li:hover{
+.search li:hover {
     color: #ddd;
 }
 
-.sign-up{
+.sign-up {
     background-color: #ea4c89;
     color: white;
     border: none;
@@ -102,29 +106,29 @@ li{
     align-items: center;
 }
 
-.sign-up:hover{
+.sign-up:hover {
     background-color: #DF3E78;
 }
 
-.text-h:hover{
+.text-h:hover {
     color: #DDD
 }
 
-.middle{
+.middle {
     height: 430px;
     display: flex;
     justify-content: center;
     background-color: #E9E6DF;
 }
 
-.middle-content{
+.middle-content {
     width: 70%;
     height: 400px;
     display: flex;
     min-width: 900px;
 }
 
-.middle-content-left{
+.middle-content-left {
     height: 100%;
     width: 54%;
     display: flex;
@@ -133,7 +137,7 @@ li{
     align-items: flex-end;
 }
 
-.middle-content-left-signin{
+.middle-content-left-signin {
     width: 80px;
     height: 38px;
     background-color: #ea4c89;
@@ -148,20 +152,21 @@ li{
 }
 
 
-.middle-content-left-signin:hover{
+.middle-content-left-signin:hover {
     cursor: pointer;
     background-color: #DF3E78;
 }
-.middle-content-right{
+
+.middle-content-right {
 
 }
 
-.buttom{
+.buttom {
     display: flex;
     flex-direction: column;
 }
 
-.buttom-menu{
+.buttom-menu {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -169,7 +174,7 @@ li{
     color: #757575;
 }
 
-.buttom-menu-content{
+.buttom-menu-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -177,16 +182,16 @@ li{
     height: 50px;
 }
 
-.buttom-menu-content-div1{
+.buttom-menu-content-div1 {
     border: 1px solid #D8DDE2;
     border-radius: 4px;
 }
 
-.buttom-menu-content-div2{
+.buttom-menu-content-div2 {
     align-self: center;
 }
 
-.popular{
+.popular {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -196,12 +201,13 @@ li{
     width: 110px;
 }
 
-.popular div{
+.popular div {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.popular ul{
+
+.popular ul {
     display: flex;
     display: none;
     top: 20px;
@@ -209,19 +215,19 @@ li{
 
 }
 
-.popular ul li{
+.popular ul li {
     height: 26px;
     width: 160px;
     text-indent: 16px;
 }
 
-.popular ul li:hover{
+.popular ul li:hover {
     cursor: pointer;
     color: #3a8bbb;
-    background-color: rgba(58,139,187,0.15);
+    background-color: rgba(58, 139, 187, 0.15);
 }
 
-.popular:hover ul{
+.popular:hover ul {
     background-color: white;
     display: block;
     position: absolute;
@@ -231,15 +237,14 @@ li{
 }
 
 
-
-.buttom-menu-content-div2-menu{
+.buttom-menu-content-div2-menu {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 600px;
 }
 
-.buttom-menu-content-div2-menu li{
+.buttom-menu-content-div2-menu li {
     height: 36px;
     width: 140px;
     padding-left: 10px;
@@ -250,13 +255,13 @@ li{
     border-radius: 8px;
 }
 
-.buttom-menu-content-div2-menu li:hover{
-    background-color: rgba(58,139,187,0.15);
+.buttom-menu-content-div2-menu li:hover {
+    background-color: rgba(58, 139, 187, 0.15);
     color: #3a8bbb;
     cursor: pointer;
 }
 
-.buttom-menu-content-div3{
+.buttom-menu-content-div3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -264,34 +269,35 @@ li{
 }
 
 
-.filter{
+.filter {
     width: 100px;
-    height: 30px;
-    ;border: 1px  solid #D8DDE2;
+    height: 30px;;
+    border: 1px solid #D8DDE2;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 4px;
     border-radius: 6px;
-    
+
 }
 
-.filter:hover{
-    box-shadow: 0px 0px 0px 1px #D8DDE2 inset, 0px 3px 4px rgba(0,0,0,0.04);
+.filter:hover {
+    box-shadow: 0px 0px 0px 1px #D8DDE2 inset, 0px 3px 4px rgba(0, 0, 0, 0.04);
     cursor: pointer;
 }
 
-.filter-b{
+.filter-b {
     display: flex;
     align-items: center;
     justify-content: center
 }
-.filter-b:hover{
+
+.filter-b:hover {
     cursor: pointer;
 }
 
 
-.buttom-content{
+.buttom-content {
     min-width: 1260px;
     display: flex;
     flex-direction: column;
@@ -299,18 +305,18 @@ li{
     background-color: #f4f4f4;
 }
 
-.buttom-content-div{
+.buttom-content-div {
     width: 95%;
 }
 
-.buttom-content-div-border{
-    padding-top:30px;
+.buttom-content-div-border {
+    padding-top: 30px;
     padding-bottom: 20px;
     display: flex;
     flex-wrap: wrap;
 }
 
-.buttom-content-div-border-img{
+.buttom-content-div-border-img {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -323,36 +329,36 @@ li{
     overflow: hidden;
 }
 
-.buttom-content-div-border-img-tip{
+.buttom-content-div-border-img-tip {
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
     bottom: -40px;
     width: 300px;
-    padding-right:10px;
-    padding-left:10px;
+    padding-right: 10px;
+    padding-left: 10px;
     background-color: white;
-    height:50px;
+    height: 50px;
     justify-content: space-between;
     align-items: center;
     transition: linear 0.3s;
 }
 
-.buttom-content-div-border-img:hover .buttom-content-div-border-img-tip{
+.buttom-content-div-border-img:hover .buttom-content-div-border-img-tip {
     bottom: 0px;
-    
+
 }
 
 
-.buttom-content-div-border-img-tip-right{
+.buttom-content-div-border-img-tip-right {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100px;
 }
 
-.buttom-content-div-border-img-tip-right{
+.buttom-content-div-border-img-tip-right {
     display: flex;
 
 }
@@ -367,7 +373,7 @@ li{
     display: block
 }  */
 
-.save{
+.save {
     width: 46px;
     height: 24px;
     border: 1px solid #D8DDE2;
@@ -377,12 +383,12 @@ li{
     align-items: center;
 }
 
-.save:hover{
+.save:hover {
     border-color: #a59e9e;
     cursor: pointer;
 }
 
-.like{
+.like {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -390,12 +396,12 @@ li{
     border-radius: 4px;
 }
 
-.like:hover{
+.like:hover {
     border-color: #a59e9e;
     cursor: pointer;
 }
 
-.sign-in{
+.sign-in {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -403,7 +409,7 @@ li{
     background-color: white;
 }
 
-.sign-in-up{
+.sign-in-up {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -416,21 +422,21 @@ li{
     margin-top: 30px;
 }
 
-.sign-in-up:hover{
+.sign-in-up:hover {
     background-color: rgb(223, 62, 123);;
 }
 
-.sign-in-in{
+.sign-in-in {
     margin-top: 20px;
     color: #3A8888;
 }
 
-.sign-in-in:hover{
+.sign-in-in:hover {
     color: #1E6189;
     cursor: pointer;
 }
 
-.adobe{
+.adobe {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -438,12 +444,12 @@ li{
     height: 100px;
 }
 
-.adobe p{
+.adobe p {
     margin: 0;
     padding: 0;
 }
 
-.free-tail{
+.free-tail {
     background-color: #ddd;
     color: #666;
     width: 100px;
@@ -454,7 +460,7 @@ li{
     align-items: center;
 }
 
-.free-tail:hover{
+.free-tail:hover {
     cursor: pointer;
     background-color: #3A8888;
     color: white;

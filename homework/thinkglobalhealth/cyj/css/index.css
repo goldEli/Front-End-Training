@@ -1,91 +1,107 @@
-*{
+* {
     margin: 0;
     border: 0;
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
-    font-family: "Larsseit",Arial,sans-serif;
+    font-family: "Larsseit", Arial, sans-serif;
 }
-.root{
+
+.root {
     width: 100%;
     height: 100%;
     text-align: center;
 }
-img{
+
+img {
     border: 0;
     padding: 0;
 }
-button{
-    border:none;
+
+button {
+    border: none;
     outline: none;
     padding: 0;
 }
-.header{
+
+.header {
     width: 100%;
     display: block;
 }
-.header-top{
+
+.header-top {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-    border-bottom: 1px solid rgba(0,0,0,0.08);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
-.header-top-left{
+
+.header-top-left {
     margin-left: 0;
     width: 20%;
     display: flex;
     align-content: center;
 }
-.header-top-left span{
+
+.header-top-left span {
     display: block;
     align-self: center;
     width: 108px;
     margin-left: 44px;
     font-size: 0.8125rem;
-    
+
     font-weight: 500;
     letter-spacing: 0.02em;
     color: #595959;
 }
-.header-top-midd{
+
+.header-top-midd {
     width: 60%;
     text-align: center;
 }
-.header-top-midd-pic{
+
+.header-top-midd-pic {
     margin: 20px auto 16px auto;
 }
-.header-top-right{
+
+.header-top-right {
     width: 20%;
     text-align: right;
     display: flex;
     align-content: center;
     justify-content: flex-end;
 }
-.header-top-right-block{
+
+.header-top-right-block {
     display: block;
     font-size: 12px;
     margin-top: -12px;
     text-align: left;
 }
-span{
+
+span {
     display: block;
 }
-.header-end{
+
+.header-end {
     height: 50px;
-    border-bottom: 1px solid rgba(0,0,0,0.08);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
     font-weight: bold;
 }
-.header-end ul{
+
+.header-end ul {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.header-end ul li{
+
+.header-end ul li {
     font-size: 14px;
     line-height: 50px;
-    margin:0px 12.5px;
+    margin: 0px 12.5px;
 }
-.top{
+
+.top {
     grid-template-columns: calc(57.5% - 40px) calc(21.25% - 60px) calc(21.25% - 60px);
     margin-top: 80px;
     gap: 0px 80px;
@@ -94,7 +110,8 @@ span{
     display: grid;
     margin-left: 0px;
 }
-.mid-midd{
+
+.mid-midd {
     grid-template-columns: calc(25%) calc(25%) calc(50% - 50px);
     margin-top: 70px;
     gap: 0px 80px;
@@ -104,10 +121,12 @@ span{
     margin-left: 40px;
     margin-right: 40px;
 }
-.mid-midd{
-    font-family: "Larsseit",Arial,sans-serif;
+
+.mid-midd {
+    font-family: "Larsseit", Arial, sans-serif;
 }
-.top-left{
+
+.top-left {
     grid-area: left;
     width: 100%;
     left: auto;
@@ -116,32 +135,37 @@ span{
     float: left;
     min-height: 140px;
 }
-.mid-midd-left{
+
+.mid-midd-left {
     grid-area: left;
     width: 100%;
     margin: 0px;
     position: relative;
 }
-.top-left-top{
+
+.top-left-top {
     width: 100%;
     margin-left: 0px;
     margin-right: 0px;
     position: relative;
 }
-.top-left-end{
+
+.top-left-end {
     padding-right: 0px;
     display: flex;
-    justify-content:space-between
+    justify-content: space-between
 
 }
-.top-left-end-pic{
+
+.top-left-end-pic {
     flex: 4;
     display: block;
     text-decoration: none;
     cursor: pointer;
 }
-.top-left-end a h2{
-    
+
+.top-left-end a h2 {
+
     color: black;
     font-size: 40px;
     letter-spacing: -0.015em;
@@ -151,51 +175,61 @@ span{
     line-height: 1;
     text-align: left;
 }
-.top-left-end-text{
+
+.top-left-end-text {
     flex: 3;
     margin-top: 15px;
     font-size: 13px;
     text-align: left;
 }
-.top-left-end-text span{
+
+.top-left-end-text span {
     text-align: left;
 
 }
-.top-left-end-text a{
+
+.top-left-end-text a {
     text-decoration: none;
     color: black;
     font-weight: 550;
 }
-.top-left-end-text p{
+
+.top-left-end-text p {
     margin-top: 15px;
     font-size: 16px;
 
 }
-.top-midd{
+
+.top-midd {
     position: relative;
     grid-area: center;
 }
-.top-midd-one:nth-child(2),.top-midd-one:nth-child(3){
+
+.top-midd-one:nth-child(2), .top-midd-one:nth-child(3) {
     margin-top: 36px;
 }
-.top-midd::before{
+
+.top-midd::before {
     content: "";
     position: absolute;
     top: 0;
     bottom: 0;
     width: 1px;
-    background: rgba(0,0,0,0.08);
+    background: rgba(0, 0, 0, 0.08);
     left: -50px;
 }
-.top-midd-one{
+
+.top-midd-one {
     width: 100%;
 }
-.top-midd-one-pic{
+
+.top-midd-one-pic {
     position: relative;
     display: flex;
     flex-direction: column;
 }
-.top-midd-one-pic a{
+
+.top-midd-one-pic a {
     align-self: flex-start;
     font-size: 0.71875rem;
     line-height: 1.4;
@@ -206,20 +240,24 @@ span{
     -webkit-font-smoothing: subpixel-antialiased;
     text-decoration: none;
 }
-.top-midd-one-pic img{
+
+.top-midd-one-pic img {
     margin-top: 4px;
     position: relative;
 }
-.top-midd-one-text{
+
+.top-midd-one-text {
     width: 100%;
 }
-.top-midd-one-text-top{
+
+.top-midd-one-text-top {
     display: block;
     text-decoration: none;
     cursor: pointer;
 }
-.top-midd-one-text-top h3{
-    font-family: "lemonde-journal",Georgia,serif;
+
+.top-midd-one-text-top h3 {
+    font-family: "lemonde-journal", Georgia, serif;
     font-size: 1.15625rem;
     line-height: 1.25;
     letter-spacing: -0.005em;
@@ -228,17 +266,19 @@ span{
     color: #1a1a1a;
     margin-top: 8px;
 }
-.top-midd-one-text-end{
-    font-family: "Larsseit",Arial,sans-serif;
+
+.top-midd-one-text-end {
+    font-family: "Larsseit", Arial, sans-serif;
     margin-top: 16px;
     font-size: 0.90625rem;
     line-height: 1.5;
     font-weight: normal;
     letter-spacing: 0.01em;
-    font-feature-settings: "ss01","ss02";
+    font-feature-settings: "ss01", "ss02";
     color: #1a1a1a;
 }
-.top-midd-one-text-end span{
+
+.top-midd-one-text-end span {
     display: inline-block;
     font-size: 0.80625rem;
     line-height: 1.5;
@@ -247,7 +287,8 @@ span{
     text-align: left;
     color: #1a1a1a;
 }
-.top-midd-one-text-end span a{
+
+.top-midd-one-text-end span a {
     color: inherit;
     text-decoration: none;
     cursor: pointer;
@@ -256,26 +297,29 @@ span{
     font-weight: 550;
     letter-spacing: 0.01em;
     font: inherit;
-    font-family: "Larsseit",Arial,sans-serif;
+    font-family: "Larsseit", Arial, sans-serif;
 }
-.top-right{
+
+.top-right {
     grid-area: right;
     margin-left: 0px;
     position: relative;
     width: 85%;
     border-top: 2px solid #1a1a1a;
 }
-.top-right::before{
+
+.top-right::before {
     content: "";
     position: absolute;
     top: 0;
     bottom: 0;
     width: 1px;
-    background: rgba(0,0,0,0.08);
+    background: rgba(0, 0, 0, 0.08);
     left: -45px;
 }
-.top-right h3{
-    font-family: "GT America Condensed",Arial,sans-serif;
+
+.top-right h3 {
+    font-family: "GT America Condensed", Arial, sans-serif;
     margin-top: 8px;
     font-size: 1.175rem;
     line-height: 1.25;
@@ -284,7 +328,8 @@ span{
     letter-spacing: -0.015em;
     color: #1a1a1a;
 }
-.top-right ul li a{
+
+.top-right ul li a {
     display: block;
     font-size: 0.71875rem;
     line-height: 1.4;
@@ -295,27 +340,31 @@ span{
     text-decoration: none;
     text-align: left;
 }
-.top-right ul li p{
+
+.top-right ul li p {
     margin-top: 4px;
     display: block;
     box-sizing: border-box;
     cursor: pointer;
-    font-family: "lemonde-journal",Georgia,serif;
+    font-family: "lemonde-journal", Georgia, serif;
     font-size: 1.3125rem;
     line-height: 1.25;
     letter-spacing: -0.01em;
     text-align: left;
 }
-.top-right ul li{
+
+.top-right ul li {
 
     margin-top: 40px;
 }
-.top-right ul{
+
+.top-right ul {
     box-sizing: border-box;
     list-style: none;
     padding: 0;
 }
-.mid-header{
+
+.mid-header {
     width: 95%;
     margin-left: 30px;
     margin-top: 50px;
@@ -325,8 +374,9 @@ span{
     align-items: center;
     flex-flow: row wrap;
 }
-.mid-header h3{
-    font-family: "GT America Condensed",Arial,sans-serif;
+
+.mid-header h3 {
+    font-family: "GT America Condensed", Arial, sans-serif;
     font-size: 1.375rem;
     line-height: 1.25;
     font-weight: bold;
@@ -334,8 +384,9 @@ span{
     color: #1a1a1a;
     box-sizing: border-box;
 }
-.mid-header a{
-    font-family: "Larsseit",Arial,sans-serif;
+
+.mid-header a {
+    font-family: "Larsseit", Arial, sans-serif;
     margin-left: auto;
     color: #F65936;
     text-decoration: none;
@@ -344,29 +395,34 @@ span{
     font-size: 0.90625rem;
     line-height: 1.5;
 }
-.mid-midd-one-text{
+
+.mid-midd-one-text {
     width: 100%;
 }
+
 .mid-midd-one-text-top {
     display: block;
     box-sizing: border-box;
 }
-.mid-midd-one-text-top h3{
+
+.mid-midd-one-text-top h3 {
     text-align: left;
     font-size: 1.5rem;
     line-height: 1.25;
-    font-family: "lemonde-journal",Georgia,serif;
+    font-family: "lemonde-journal", Georgia, serif;
     margin-top: 12px;
     font-weight: 500;
     font-variant-numeric: lining-nums;
     color: #1a1a1a;
-    
+
 }
-a{
+
+a {
     color: inherit;
     text-decoration: none;
     cursor: pointer;
 }
+
 .mid-midd-one-text-mid {
     display: block;
     margin-top: 16px;
@@ -374,63 +430,71 @@ a{
     line-height: 1.5;
     font-weight: 520;
     letter-spacing: 0.01em;
-    font-family: "Larsseit",Arial,sans-serif;
+    font-family: "Larsseit", Arial, sans-serif;
 }
-.mid-midd-one-text-mid span,.mid-midd-one-text-mid a{
+
+.mid-midd-one-text-mid span, .mid-midd-one-text-mid a {
     text-align: left;
 }
+
 .mid-midd-one-text-end {
     margin-top: 12px;
     display: block;
     text-align: left;
-    font-family: "lemonde-journal",Georgia,serif;
+    font-family: "lemonde-journal", Georgia, serif;
     font-size: 1.0625rem;
     line-height: 1.3;
     letter-spacing: 0;
     color: #333333;
 }
-.mid-midd-midd{
+
+.mid-midd-midd {
     position: relative;
     grid-area: center;
 }
-.mid-midd-midd::before{
+
+.mid-midd-midd::before {
     content: "";
     position: absolute;
     top: 0;
     bottom: 0;
     width: 1px;
-    background: rgba(0,0,0,0.08);
+    background: rgba(0, 0, 0, 0.08);
     left: -40px;
 }
-.mid-midd-right{
+
+.mid-midd-right {
     position: relative;
     grid-area: right;
     margin-right: 100px;
 }
-.mid-midd-right::before{
+
+.mid-midd-right::before {
     content: "";
     position: absolute;
     top: 0;
     bottom: 0;
     width: 1px;
-    background: rgba(0,0,0,0.08);
+    background: rgba(0, 0, 0, 0.08);
     left: -40px;
 }
-.mid-pic{
+
+.mid-pic {
     width: 100%;
     margin-top: 70px;
     height: 700px;
 }
-.end{
+
+.end {
     display: flex;
     margin-top: 70px;
     margin-bottom: 60px;
     box-sizing: border-box;
 }
-.end-intro{
-    flex: 1;
+
+.end-intro {
     margin-left: 40px;
-    width: 300px;
+    width: 400px;
     margin-right: 40px;
     flex-shrink: 0;
     position: relative;
@@ -438,8 +502,9 @@ a{
     box-sizing: border-box;
     text-align: left;
 }
-.end-intro h3{
-    font-family: "GT America Condensed",Arial,sans-serif;
+
+.end-intro h3 {
+    font-family: "GT America Condensed", Arial, sans-serif;
     margin-top: 8px;
     font-size: 1.375rem;
     line-height: 1.25;
@@ -447,8 +512,9 @@ a{
     letter-spacing: -0.015em;
     color: #1a1a1a;
 }
-.end-intro p{
-    font-family: "lemonde-journal",Georgia,serif;
+
+.end-intro p {
+    font-family: "lemonde-journal", Georgia, serif;
     margin-top: 16px;
     font-size: 1.0625rem;
     line-height: 1.3;
@@ -456,38 +522,43 @@ a{
     font-variant-numeric: lining-nums;
     color: #333333;
 }
-.control{
+
+.control {
     position: absolute;
     top: 12px;
     right: 0;
 }
-button{
+
+button {
     background-color: white;
 }
-.control img{
+
+.control img {
     cursor: pointer;
 }
-.end-play{
-    flex: 4;
+
+.end-play {
+    flex: 2;
 }
-#outer{
-    width: 100%;
+
+#outer {
+    width: 1000px;
     height: 200px;
     position: relative;
     overflow: hidden;
 }
-#playlist{
+
+.playlist {
     position: absolute;
+    display: flex;
     text-decoration: none;
-    list-style: none;
     border: 0;
-    white-space:nowrap
+
+
 }
-#playlist li{
-    float: left;
-    margin:0 5px;
-}
-#playlist li img{
+
+.playlist img {
     height: 200px;
-    width: 260px;
+    width: 240px;
+    margin: 0 10px;
 }
