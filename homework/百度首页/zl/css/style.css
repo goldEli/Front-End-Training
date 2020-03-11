@@ -1,181 +1,211 @@
 #wrapper {
-	height: 720px;
-	min-width: 1200px;
-	width: 100%;
+    height: 720px;
+    min-width: 1200px;
+    width: 100%;
 }
+
 #head {
-	height: 40px;
-	min-width: 1200px;
-	width: 100%;
-	border-bottom:1px solid darkgray;
+    height: 40px;
+    min-width: 1200px;
+    width: 100%;
+    border-bottom: 1px solid darkgray;
 }
+
 #head_left {
-	float: left;
-	width: 50%;
+    float: left;
+    width: 50%;
 }
+
 #head_right {
-	float: left;
-	width: 50%;
+    float: left;
+    width: 50%;
 }
+
 #head_left input {
-	text-align: center;
-	width: 30px;
+    text-align: center;
+    width: 30px;
 }
 
 .mnav {
-	font-size: 13px;
-	color: #000000;
-	font-weight: 800;
+    font-size: 13px;
+    color: #000000;
+    font-weight: 800;
 }
+
 #virus-2020 {
-	font-size: 15px;
-	font-weight: 800;
-	color: red;
+    font-size: 15px;
+    font-weight: 800;
+    color: red;
 }
+
 .lb {
-	font-size: 13px;
-	color: #000000;
+    font-size: 13px;
+    color: #000000;
 }
+
 .bri {
-	font-size: 13px;
-	display: inline-block;
-	background-color: skyblue;
-	text-decoration:none;
+    font-size: 13px;
+    display: inline-block;
+    background-color: skyblue;
+    text-decoration: none;
 }
 
 #search {
-	height: 100%;
-	position: relative;
-	min-height: 230px;
-	text-align: center;
+    height: 100%;
+    position: relative;
+    min-height: 230px;
+    text-align: center;
 }
+
 #search_btn {
-	height: 100px;
+    height: 100px;
 }
+
 #search_btn #search_border {
-	height: 35px;
-	width: 500px;
+    height: 35px;
+    width: 500px;
 }
+
 #search_btn #search_click {
-	height: 35px;
-	width: 90px;
+    height: 35px;
+    width: 90px;
 }
+
 #search_border {
-	background: #FFFFFF url(../img/照相机.PNG) 465px 9px no-repeat;
+    background: #FFFFFF url(../img/照相机.PNG) 465px 9px no-repeat;
 }
 
 #context {
-	height: 400px;
-	min-width: 1200px;
-	width: 100%;
+    height: 400px;
+    min-width: 1200px;
+    width: 100%;
 }
+
 #title {
-	border: 1px darkgray solid;
-	height: 50px;
-	width: 800px;
-	margin: auto;
+    border: 1px darkgray solid;
+    height: 50px;
+    width: 800px;
+    margin: auto;
 }
+
 #article {
-	border: 1px darkgray solid;
-	height: 340px;
-	width: 800px;
-	margin: auto;
+    border: 1px darkgray solid;
+    height: 340px;
+    width: 800px;
+    margin: auto;
 }
+
 .article_left {
-	float: left;
-	width: 64%;
-	height: 330px;
+    float: left;
+    width: 64%;
+    height: 330px;
 
 }
+
 #article_right {
-	float: right;
-	width: 34%;
-	height: 330px;
+    float: right;
+    width: 34%;
+    height: 330px;
 }
+
 #hot_title ul {
-	width: 210px;
-	text-align: left;
+    width: 210px;
+    text-align: left;
 }
+
 #hot_title li {
-	width: 100px;   /*如果显示三列 则width改为70px*/
-	float: left;
-	display: block;
-	text-align: left;
+    width: 100px; /*如果显示三列 则width改为70px*/
+    float: left;
+    display: block;
+    text-align: left;
 }
 
 table {
-	font-size: 13px;
-	font: "arial black";
+    font-size: 13px;
+    font: "arial black";
 }
+
 tr {
-	height: 40px;
+    height: 40px;
 }
 
 .left_pages {
-	height: 160px;
-	border-bottom:1px solid darkgray;
+    height: 160px;
+    border-bottom: 1px solid darkgray;
 }
 
 .article_img_text {
-	width: 48%;
-	float: left;
-	margin-top: 10px;
+    width: 48%;
+    float: left;
+    margin-top: 10px;
 }
+
 .article_img {
-	width: 200px;
-	height: 90%;
+    width: 200px;
+    height: 90%;
 }
+
 .article_text {
-	width: 48%;
-	float: left;
-	margin-top: 10px;
+    width: 48%;
+    float: left;
+    margin-top: 10px;
 }
+
 .article_text p {
-	text-align: left;
+    text-align: left;
 }
+
 .article_text .p1 {
-	font: 18px;
-	font-weight: 800;
+    font: 18px;
+    font-weight: 800;
 }
+
 .article_text .p2 {
-	font: 13px;
-	color: darkgrey;
+    font: 13px;
+    color: darkgrey;
 }
+
 .bottom a {
-	font-size: 13px;
-	color: darkgrey;
-	font-weight: 700;
+    font-size: 13px;
+    color: darkgrey;
+    font-weight: 700;
 }
+
 #bottom_right p {
-	font-size: 13px;
-	color: darkgrey;
+    font-size: 13px;
+    color: darkgrey;
 }
+
 #bottom_left {
-	width: 48%;
-	height: 50px;
-	float: left;
+    width: 48%;
+    height: 50px;
+    float: left;
 }
+
 #bottom_right {
-	width: 48%;
-	height: 50px;
-	float: right;
-	margin-top: 5px;
+    width: 48%;
+    height: 50px;
+    float: right;
+    margin-top: 5px;
 }
+
 #title li {
-	width: 93px;
-	height: 48px;
-	line-height: 48px;
-	display: inline-block;
-	overflow: hidden;
-	font-size: 14px;
-	letter-spacing: 0px;
-	color: black;
-	font-weight: 700;
-	text-align: center;
+    width: 93px;
+    height: 48px;
+    line-height: 48px;
+    display: inline-block;
+    overflow: hidden;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: black;
+    font-weight: 700;
+    text-align: center;
 }
+
 .title_li {
-	float: left;
+    float: left;
 }
+
 .title_edit {
-	float: right;
+    float: right;
 }
