@@ -205,6 +205,7 @@
         // 清空页面的html内容
         document.getElementById('root').innerHTML = '';
         createData();
+
     }
     // 3.触发左移点击事件
     var btn_left = document.getElementById("left");
@@ -225,6 +226,61 @@
             div.innerHTML = '<img src="' + data[i].imgSrc + '" />';
             // 将div标签放到其父类标签下
             root.appendChild(div);
+ 
+        // 2.触发右移点击事件
+        var btn_right = document.getElementById("right");
+        btn_right.onclick = function () {
+            move(root, 290, 10, () => {
+                var last_data = data.pop();
+                data.unshift(last_data);
+                // 清空页面的html内容
+                document.getElementById('root').innerHTML = '';
+                createData();
+            });
+        }
+        // 3.触发左移点击事件
+        var btn_left = document.getElementById("left");
+        btn_left.onclick = function () { 
+            move(root, 290, -10,()=>{
+                var first_data = data.shift();
+                //alert("welcome!");
+                data.push(first_data);
+                // 清空页面的html内容
+                document.getElementById('root').innerHTML = '';
+                createData();
+            }); 
+        }
+        
+        // 移动函数
+        function move(target, distance, speed, callback) {
+            // 记录运动距离
+            var already = 0;
+            var time = window.setInterval(() => {
+                var left = target.offsetLeft + speed;
+                target.style.left = left + "px";
+                already += speed;
+                if (Math.abs(already) === distance) {
+                    target.style.left = "-290px";
+                    window.clearInterval(time);
+                    // 回调函数
+                    callback();
+                }
+            }, 1000/30);  
+        }
+
+        // 回调函数
+        
+        // 建表函数
+        function createData() {
+            for (var i = 0; i < data.length; i++) {
+                var div = document.createElement("div");
+                // 向div标签中添加属性
+                div.setAttribute("style", "color:red;");
+                // 将内容显示的写到html页面中
+                div.innerHTML = '<img src="' + data[i].imgSrc + '" />';
+                // 将div标签放到其父类标签下
+                root.appendChild(div);
+            }
         }
     }
 </script>
