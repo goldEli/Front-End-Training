@@ -30,6 +30,7 @@
 - [2020.03.09 Ajax](https://github.com/goldEli/Front-End-Training/issues/43)
 - [2020.03.10 值是如何传递的？](https://github.com/goldEli/Front-End-Training/issues/40)
 - [2020.03.11 作用域与闭包](https://github.com/goldEli/Front-End-Training/issues/38)
+- [2020.03.12 作用域与闭包](https://github.com/goldEli/Front-End-Training/issues/39)
 
 ### Homework
 
