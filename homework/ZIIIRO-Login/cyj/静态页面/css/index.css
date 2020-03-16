@@ -7,10 +7,11 @@
 
 .root {
     height: 100%;
-    width: 100vw;
+    width: 100%;
+    min-width: 1250px;
 }
 .header {
-    width: 100vw;
+    width: 100%;
     background: #282828;
 }
 .headers {
@@ -19,7 +20,7 @@
     box-sizing: border-box;
     margin: 0 auto;
     padding: 0 30px;
-    width: 100vw;
+    width: 100%;
     height: 76px;
     background: #282828;
     z-index: 9996;
@@ -79,14 +80,16 @@
 }
 .content{
     position: relative;
-    margin-left: 200px;
-    margin-right: 200px;
-    max-width: 1250px;
+    width: 100%;
+    min-width: 1250px;
+
 }
 .login {
     position: relative;
     display: flex;
-    flex-flow: row wrap;
+    margin-left: 200px;
+    margin-right: 200px;
+    min-width: 1000px;
 }
 .context-left{
     display: block;

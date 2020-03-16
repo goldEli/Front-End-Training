@@ -4,14 +4,19 @@
     list-style: none;
     box-sizing: border-box;
 }
+body{
+    min-width: 1250px;
+}
 
 .root {
     height: 100%;
-    width: 100vw;
+    width: 100%;
+    min-width: 1250px;
 }
 .header {
-    width: 100vw;
+    width: 100%;
     background: #282828;
+    min-width: 1250px;
 }
 .headers {
 
@@ -19,7 +24,7 @@
     box-sizing: border-box;
     margin: 0 auto;
     padding: 0 30px;
-    width: 100vw;
+    width: 100%;
     height: 76px;
     background: #282828;
     z-index: 9996;
@@ -37,9 +42,7 @@
     padding: 0 15px 0 0;
     box-sizing: border-box;
 }
-label{
-    clear: both;
-}
+
 .nav {
     box-sizing: border-box;
     color: rebeccapurple;
@@ -73,7 +76,8 @@ label{
     background-color: #f7f7f7;
     border-top: 1px solid #ececec;
     border-bottom: 1px solid #ececec;
-    height: 90px;    
+    height: 90px;
+
     text-align: center
 }
 .front h1{
@@ -81,14 +85,16 @@ label{
 }
 .content{
     position: relative;
-    margin-left: 200px;
-    margin-right: 200px;
-    max-width: 1250px;
+    width: 100%;
+    min-width: 1250px;
+
 }
 .login {
     position: relative;
     display: flex;
-    flex-flow: row wrap;
+    margin-left: 200px;
+    margin-right: 200px;
+    min-width: 1000px;
 }
 .context-left{
     display: block;
@@ -142,7 +148,7 @@ h3{
 }
 .bottom{
     float: left;
-    margin-top: 20px;  
+    margin-top: 20px;
 }
 .top input{
     box-sizing: border-box;
