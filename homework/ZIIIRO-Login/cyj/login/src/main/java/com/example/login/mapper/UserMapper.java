@@ -9,8 +9,6 @@ import java.util.List;
 //@Repository
 @Mapper
 public interface UserMapper {
-    public User findUserById(int id);
     public User findUserByName(String name);
-    List<User> findAll();
     public int insertUser(User user);
 }

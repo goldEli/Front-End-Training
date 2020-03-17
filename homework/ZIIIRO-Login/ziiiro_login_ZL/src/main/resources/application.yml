@@ -5,9 +5,9 @@ spring:
   ################## mysql-config ################
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/ziiiro_project?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT
+    url: jdbc:mysql://10.0.10.143:3306/miner_ue?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT
     username: root
-    password: 123456
+    password: Cdsf@119
   ################## jpa-config ################
   jpa:
     hibernate:
