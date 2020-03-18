@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    <div class="root">
+        <div class="headers">
+            <div class="headers-inner">
+                <div class="logo">
+                    <img src="../pic/logo.png" alt="" width="180px" height="74px">
+                </div>
+                <ul class="nav">
+                        <span class="left">
+                            <li class="first">
+                                <a href="#" class="has_sub">Shop</a>
+                            </li>
+                            <li class="second">
+                                <a href="#" class="has_sub">Find your style</a>    
+                            </li>
+                            <li class="third">
+                                <span class="has_sub">Support</span> 
+                            </li>
+                            <li class="third">
+                                <span class="has_sub">About Us</span> 
+                            </li>
+                        </span>
+                    <span class="right">
+                            <li class="signin">
+                                <a href="#" class="has_sub">English</a>
+                            </li>
+                            <li class="signin">
+                                <a href="#" class="has_sub">中文</a>
+                            </li>
+                            
+                        </span>
+                </ul>
+            </div>
+        </div>
+        <div class="front">
+            <h1>MY ACCOUNT</h1>
+            <p>Click here to login with Facebook</p>
+        </div>
+        <div class="tips" style="background-color: rgb(187, 184, 180); font-size: 30px; font-weight: bold;">
+        </div>
+        <div class="content">
+            <div class="login">
+                <div class="context-left">
+                    <h3>LOGIN</h3>
+                    <div class="form-login">
+                        <p class="top">
+                            <label for="username" style="font-weight: bold;">
+                                Username or email address
+                                <span class="required">*</span>
+                            </label>
+                            <input type="text" class="username" id="username">
+                        </p>
+                        <p class="top">
+                            <label for="password-log" style="font-weight: bold;">
+                                Password
+                                <span class="required">*</span>
+                            </label>
+                            <input type="text" class="password-log" id="password-log" >
+                        </p>
+                        <p class="bottom">
+                            <label for="remember" style="font-weight: bold;">
+                                <input type="checkbox" class="remember">
+                                <span >Remember me</span>
+                            </label>
+                            <button type="submit" class="login-btn">Log in</button>
+                        </p>
+                        <div class="mention">
+                            Lost your password?
+                        </div>
+                    </div>
+
+                    
+                </div>
+                <div class="context-right">
+                    <h3>REGISTER</h3>
+                    <div class="form-login">
+                        <p class="top">
+                            <label for="email" style="font-weight: bold;">
+                                Email address
+                                <span class="required">*</span>
+                            </label>
+                            <input type="text" class="email" id="email">
+                        </p>
+                        <p class="top">
+                            <label for="password-reg" style="font-weight: bold;">
+                                Password
+                                <span class="required">*</span>
+                            </label>
+                            <input type="text" class="password-reg" id="password-reg" >
+                        </p>
+                        <p class="bottom">
+                            <label for="remember" style="font-weight: bold;">
+                                <input type="checkbox" class="remember">
+                                <span >Subscribe to our newletter</span>
+                            </label>
+                            <div class="mentions">
+                                Your personal data will be used to support your experience throughout this website,
+                                 to manage access to your account, and for other purposes described in our privacy policy.
+                            </div>
+                            <button type="submit" class="reg-btn"  onclick="change()">Register</button>
+                        </p>
+                        
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <script>
+    var tip = document.getElementsByClassName("tips")[0];
+    tip.style.visibility="hidden";
+    function change(){
+        var tips = tip.style.visibility="visible";
+        email();
+        password();
+        num = e + p;
+        switch(num){
+            case 1: return tip.innerHTML="邮箱地址错误"; break;
+            case 2: return tip.innerHTML="密码强度不够（密码中必须包含大小写字母、数字、特殊字符，至少6个字符，最多16个字符）"; break;
+            case 3: return tip.innerHTML="邮箱地址和密码输入不合法，请全部重新输入！"
+        }
+        if(email()||password()==false){
+            console.log("可以发送请求")
+        }
+    }
+    function email(){
+        var email = document.getElementById("email").value;
+        var reg = /^([a-zA-Z]|[0-9])(\w|\-)+@[a-zA-Z0-9]+\.([a-zA-Z]{2,4})$/;
+        if(reg.test(email)){
+        //成功
+        return e = 0;
+        }else{
+        //失败
+        return e = 1;
+        }
+    }
+    function password(){
+        var pswd = document.getElementsByClassName("password-reg").value;
+        //密码必须包含 字母、数字，至少6个字符，最多16个字符
+        var pwdRegex = new RegExp(/^(?![^a-zA-Z]+$)(?!\D+$)/);
+        if (pwdRegex.test(pswd)) {
+        //成功
+        return p = 0;
+        }else{
+        //失败
+        return p = 2;   
+        }
+    }
+    </script>
+</body>
+</html>

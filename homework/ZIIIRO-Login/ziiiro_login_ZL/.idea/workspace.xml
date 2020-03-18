@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6a287dc4-2692-4142-87cb-94475f87ba8d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../cyj/login/src/main/java/com/example/login/Utils/ResponseUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cyj/login/src/main/java/com/example/login/domain/ResponseObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cyj/login/src/main/java/com/example/login/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cyj/login/src/main/java/com/example/login/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cyj/login/src/main/java/com/example/login/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cyj/login/src/main/java/com/example/login/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cyj/login/src/main/resources/mybatis/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cyj/login/src/main/resources/mybatis/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cyj/login/src/main/resources/static/cyj/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../cyj/login/src/main/resources/static/cyj/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cyj/login/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../cyj/login/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cyj/静态页面/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../cyj/静态页面/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ziiiro_login.iml" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="miner_ue@10.0.10.143" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="miner_ue@10.0.10.143" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="miner_ue@10.0.10.143" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="miner_ue: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Aspect" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="FxmlFile" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.5.0" />
+        <option name="pluginUpdatePolicy" value="DO_NOT_UPDATE" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YyX1HH5ilUfFqQLMqfBfvdVAQ4" />
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id>Abstraction issuesJava</id>
+          </State>
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>CDI (Contexts and Dependency Injection)</id>
+          </State>
+          <State>
+            <id>Code maturityJava</id>
+          </State>
+          <State>
+            <id>Control flow issuesJava</id>
+          </State>
+          <State>
+            <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>FinalizationJava</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Guice</id>
+          </State>
+          <State>
+            <id>Inheritance issuesJava</id>
+          </State>
+          <State>
+            <id>InitializationJava</id>
+          </State>
+          <State>
+            <id>InternationalizationJava</id>
+          </State>
+          <State>
+            <id>JPA</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java EE</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>MemoryJava</id>
+          </State>
+          <State>
+            <id>MessagesCorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>Numeric issuesJava</id>
+          </State>
+          <State>
+            <id>PerformanceJava</id>
+          </State>
+          <State>
+            <id>PerformanceLintAndroid</id>
+          </State>
+          <State>
+            <id>PortabilityJava</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>Reflective accessJava</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>SecurityJava</id>
+          </State>
+          <State>
+            <id>Threading issuesGroovy</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+          <State>
+            <id>WebSocket</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583749547395" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.sunshine.service.impl" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\developSoftware\workspace\java\ziiiro_login\src\main\resources\static" />
+      <recent name="D:\developSoftware\workspace\java\ziiiro_login\src\main\resources\static\css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringBootBuildApplication">
+    <configuration name="UserServiceImplTest.getUserByNameOrEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ziiiro_login" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sunshine.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sunshine.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.sunshine.service.impl.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="getUserByNameOrEmail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceImplTest.saveUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ziiiro_login" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sunshine.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sunshine.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.sunshine.service.impl.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="saveUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootBuildApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ziiiro_login" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sunshine.SpringBootBuildApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.UserServiceImplTest.saveUser" />
+      <item itemvalue="JUnit.UserServiceImplTest.getUserByNameOrEmail" />
+      <item itemvalue="Spring Boot.SpringBootBuildApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserServiceImplTest.getUserByNameOrEmail" />
+        <item itemvalue="JUnit.UserServiceImplTest.saveUser" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@15703d25" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6a287dc4-2692-4142-87cb-94475f87ba8d" name="Default Changelist" comment="" />
+      <created>1583389284813</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583389284813</updated>
+      <workItem from="1583389286675" duration="8498000" />
+      <workItem from="1583459072386" duration="13520000" />
+      <workItem from="1583559987644" duration="1097000" />
+      <workItem from="1583631780132" duration="18747000" />
+      <workItem from="1583679468655" duration="196000" />
+      <workItem from="1583680546185" duration="31000" />
+      <workItem from="1583718243906" duration="18628000" />
+      <workItem from="1583753412455" duration="1200000" />
+      <workItem from="1583818608237" duration="3471000" />
+      <workItem from="1583915592776" duration="7170000" />
+      <workItem from="1584079358595" duration="107000" />
+      <workItem from="1584082198120" duration="5786000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="UserServiceImplTest_saveUser - 2020.03.08 at 19h 03m 27s.xml">
+      <configuration name="UserServiceImplTest.saveUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_saveUser - 2020.03.08 at 19h 04m 20s.xml">
+      <configuration name="UserServiceImplTest.saveUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_getUserByNameOrEmail - 2020.03.08 at 19h 10m 39s.xml">
+      <configuration name="UserServiceImplTest.getUserByNameOrEmail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_getUserByNameOrEmail - 2020.03.08 at 19h 12m 05s.xml">
+      <configuration name="UserServiceImplTest.getUserByNameOrEmail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_getUserByNameOrEmail - 2020.03.08 at 19h 13m 10s.xml">
+      <configuration name="UserServiceImplTest.getUserByNameOrEmail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_getUserByNameOrEmail - 2020.03.08 at 19h 14m 05s.xml">
+      <configuration name="UserServiceImplTest.getUserByNameOrEmail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_getUserByNameOrEmail - 2020.03.09 at 09h 45m 10s.xml">
+      <configuration name="UserServiceImplTest.getUserByNameOrEmail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_getUserByNameOrEmail - 2020.03.09 at 09h 48m 23s.xml">
+      <configuration name="UserServiceImplTest.getUserByNameOrEmail" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.11.12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.1922545" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.login.mapper.UserMapper">
+    <select id="findUserById" resultType="com.example.login.entity.User" parameterType="int">
+        SELECT * from user where id = #{id}
+    </select>
+    <select id="findUserByName" resultType="com.example.login.entity.User" parameterType="String">
+        SELECT * from user where username = #{username}
+    </select>
+    <select id="findAll" resultType="com.example.login.entity.User" >
+        SELECT * from user
+    </select>
+    <insert id="insertUser" parameterType="User">
+        insert into  user(username,password) values(#{username},#{password})
+    </insert>
+
+</mapper>

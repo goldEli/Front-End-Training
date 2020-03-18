@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    height: 35px;
+    min-width: 300px;
+    background-color: black;
+}
+
+.title {
+    height: 70px;
+    background-color: rgb(29, 27, 27);
+}
+
+.msg {
+    height: 80px;
+    line-height: 80px;
+    padding-left: 9%;
+    color: red;
+    font-weight: 700;
+    display: none;
+}
+
+.info {
+    height:80px;
+    padding-top: 10px;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.forms {
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.forms_login {
+    padding-left: 30px;
+    width: 42%;
+    border-right: 1px darkgray solid;
+}
+
+.input01 {
+    width: 95%;
+    height: 35px;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+.input02 {
+    width: 95%;
+    height: 35px;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+.checkbox {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.log_submit {
+    border-radius: 10px;
+    width: 80px;
+    height: 45px;
+    margin-bottom: 15px;
+    background-color: blue;
+    font-size: 18px;
+    color: white;
+}
+
+.res_submit{
+    border-radius: 10px;
+    width: 100px;
+    height: 45px;
+    margin-top: 15px;
+    background-color: blue;
+    font-size: 18px;
+    color: white;
+}
+
+.forms_register {
+    padding-left: 30px;
+    width: 42%;
+}
+
+.main {
+    height: auto;
+    background-color: rgb(56, 55, 55);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input03 {
+    height: 30px;
+    width: 60%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: lightgray;
+    border-radius: 15px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.btn_01 {
+    border-radius: 5px;
+    width: 110px;
+    height: 30px;
+    background-color: blue;
+    border: none;
+}
+
+
+
+.main_title {
+    width: 600px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.main_context {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.main_context_01 {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    border: 2px red dashed;
+}
+
+.main_search {
+    width: 60%;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.input04 {
+    margin-top: 40px;
+    background-color: lightgray;
+    width: 70%;
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+
+.footer {
+    height: 180px;
+    background-color: rgb(29, 27, 27);
+}
