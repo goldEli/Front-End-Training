@@ -13,7 +13,4 @@ Check [issue](https://github.com/goldEli/Front-End-Training/issues)
 
 ### Homework
 
-- [百度首页（静态）](https://github.com/goldEli/Front-End-Training/issues/1)
-- [dribbble 首页](https://github.com/goldEli/Front-End-Training/issues/8)
-- [thinkglobalhealth 首页](https://github.com/goldEli/Front-End-Training/issues/17)
-- [ZIIIRO 登录注册](https://github.com/goldEli/Front-End-Training/issues/28)
+Check [issue](https://github.com/goldEli/Front-End-Training/issues)
