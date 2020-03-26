@@ -1,0 +1,77 @@
+.msg {
+    height: 80px;
+    line-height: 80px;
+    padding-left: 9%;
+    color: red;
+    font-weight: 700;
+}
+
+.info {
+    height:120px;
+    padding-top: 5px;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.forms {
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.forms_login {
+    padding-left: 30px;
+    width: 42%;
+    border-right: 1px darkgray solid;
+}
+
+.input01 {
+    width: 95%;
+    height: 35px;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+.input02 {
+    width: 95%;
+    height: 35px;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+.checkbox {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.log_submit {
+    border-radius: 10px;
+    width: 80px;
+    height: 45px;
+    margin-bottom: 15px;
+    background-color: blue;
+    font-size: 18px;
+    color: white;
+}
+
+.res_submit{
+    border-radius: 10px;
+    width: 100px;
+    height: 45px;
+    margin-top: 15px;
+    background-color: blue;
+    font-size: 18px;
+    color: white;
+}
+
+.forms_register {
+    padding-left: 30px;
+    width: 42%;
+}
