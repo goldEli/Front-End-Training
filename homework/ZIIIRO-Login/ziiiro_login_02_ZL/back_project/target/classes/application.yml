@@ -1,0 +1,15 @@
+server:
+  port: 8081
+
+spring:
+  ################## mysql-config ################
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ziiiro_project?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT
+    username: root
+    password: 123456
+  ################## jpa-config ################
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
